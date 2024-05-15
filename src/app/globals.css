@@ -1,4 +1,17 @@
-@tailwind base;
+.chatContainerStyle{
+  background-color: blueviolet;
+  width: 500px;
+  height: 400px;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+.chatButtonStyle{
+  position: fixed;
+  top: 30px
+}
+
+/* @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
@@ -14,7 +27,7 @@
     --background-start-rgb: 0, 0, 0;
     --background-end-rgb: 0, 0, 0;
   }
-}
+} */
 
 /* body {
   color: rgb(var(--foreground-rgb));
@@ -26,8 +39,8 @@
     rgb(var(--background-start-rgb));
 } */
 
-@layer utilities {
+/* @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
+} */
